@@ -10,12 +10,18 @@
   strong {
     font-weight: 500;
   }
+
+  &--blue {
+    color: $mainBlue;
+  }
   &__icon {
     display: block;
     margin: auto;
     margin-bottom: 0.6rem;
 
     @mixin atSmall {
+      position: relative;
+      top: 10px;
       margin-right: 0.5rem;
       margin-left: 0;
       display: inline-block;
